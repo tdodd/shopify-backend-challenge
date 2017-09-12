@@ -1,0 +1,27 @@
+{
+  "name": "shopify-backend-challenge",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "morgan": "~1.8.1",
+    "pug": "~2.0.0-beta11",
+    "request": "^2.81.0",
+    "serve-favicon": "~2.4.2"
+  },
+  "devDependencies": {
+    "bluebird": "^3.5.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^3.5.2",
+    "nodemon": "^1.12.0",
+    "sinon": "^3.2.1"
+  }
+}
