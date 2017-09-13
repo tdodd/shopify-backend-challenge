@@ -7,7 +7,7 @@ const validation = require('../controllers/ValidationController');
 
 
 /**
- * GET /customer
+ * GET / or /customers
  * 
  * Get all customers for page 1 and return invalid customers
  * 
@@ -21,7 +21,7 @@ router.get('/', function(req, res, next) {
 });
    
 /**
- * GET /customer/{pageNumber}
+ * GET /customers/{pageNumber}
  * 
  * Get all customers for this page and return invalid customers
  * 
